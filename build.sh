@@ -1,6 +1,7 @@
 set -e
 GOST_VERSION=2.11.1
 GOLANG_VERSION=1.13.8
+
 cd $( cd "$( dirname "$0"  )" && pwd  )
 if [ ! -e build ]
 then
